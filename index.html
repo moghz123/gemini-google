@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link font google -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>gemini google</title>
+  </head>
+  <body>
+    <header class="header d-none">
+      <div class="container">
+        <!-- greating header -->
+        <div class="greating-header">
+          <h2 class="title">hello there</h2>
+          <h4 class="   ">how can i help you today</h4>
+        </div>
+        <!-- suggstion list -->
+        <div class="row mt-5 cards gy-3">
+          <div class="col-md-3 col-sm-6 col-6">
+            <div class="suggtion-cards">
+              <h4 class="text">
+                help me plan agame night with my 5 best frinds for under 100$?
+              </h4>
+              <span class="icons material-symbols-outlined"> draw </span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6">
+            <div class="suggtion-cards">
+              <h4 class="text">
+                what is the best meathod to improve my speaking in english?
+              </h4>
+              <span class="icons material-symbols-outlined"> light </span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6">
+            <div class="suggtion-cards">
+              <h4 class="text">
+                can you help me to know the latest uptade on web development?
+              </h4>
+              <span class="icons material-symbols-outlined"> code </span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6">
+            <div class="suggtion-cards">
+              <h4 class="text">what a paragraph in short about the history of javaScript?</h4>
+              <span class="icons material-symbols-outlined"> explore </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- chat list -->
+    <div class="container-fluid chat-list py-4"></div>
+    <!-- typing area -->
+    <div class="typing-area">
+      <form action="#" class="typing-form">
+        <div class="input-wraper">
+          <input
+            type="text"
+            class="input-typing"
+            placeholder="enter here a prompt"
+            required
+          />
+          <button id="submit-button" class="icon material-symbols-outlined">
+            send
+          </button>
+        </div>
+        <div class="action-buttons d-flex">
+          <span id="toggel-light" class="icon material-symbols-outlined">
+            wb_sunny
+          </span>
+          <span class="icon delet-button material-symbols-outlined">
+            delete
+          </span>
+        </div>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
